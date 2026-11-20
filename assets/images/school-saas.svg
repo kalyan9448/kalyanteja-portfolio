@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="700" height="440">
+  <defs>
+    <linearGradient id="saasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f141c"/>
+      <stop offset="100%" stop-color="#090d14"/>
+    </linearGradient>
+    <linearGradient id="geminiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161d28"/>
+      <stop offset="100%" stop-color="#111720"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="440" rx="12" fill="url(#saasBg)"/>
+  <rect width="698" height="438" x="1" y="1" rx="11" fill="none" stroke="#222c3c" stroke-width="1"/>
+
+  <!-- Top Window Bar -->
+  <rect width="700" height="42" rx="12" fill="#141a24"/>
+  <rect y="30" width="700" height="12" fill="#141a24"/>
+  <line x1="0" y1="42" x2="700" y2="42" stroke="#222d3d" stroke-width="1"/>
+  
+  <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="21" r="5" fill="#f59e0b"/>
+  <circle cx="56" cy="21" r="5" fill="#10b981"/>
+
+  <text x="80" y="25" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" letter-spacing="1">AI-POWERED SCHOOL MANAGEMENT SAAS — 200 INSTITUTIONS</text>
+  <rect x="550" y="12" width="125" height="18" rx="9" fill="rgba(124,58,237,0.2)"/>
+  <text x="612" y="25" fill="#c084fc" font-family="sans-serif" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="1">MULTI-TENANT SAAS</text>
+
+  <!-- Left Main Dashboard Panel -->
+  <rect x="24" y="60" width="370" height="250" rx="8" fill="url(#cardGrad2)" stroke="#222d3d" stroke-width="1"/>
+  <text x="44" y="86" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Institutional Performance Hub</text>
+  <text x="44" y="103" fill="#64748b" font-family="sans-serif" font-size="10">Active Tenant: Delhi Public Academy • Session 2025-26</text>
+
+  <!-- Stat Mini Cards -->
+  <rect x="44" y="118" width="154" height="52" rx="6" fill="#0d1219" stroke="#1f2937" stroke-width="1"/>
+  <text x="56" y="137" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="800">42,800+</text>
+  <text x="56" y="156" fill="#94a3b8" font-family="sans-serif" font-size="9">Total Students Enrolled</text>
+
+  <rect x="212" y="118" width="162" height="52" rx="6" fill="#0d1219" stroke="#1f2937" stroke-width="1"/>
+  <text x="224" y="137" fill="#4ade80" font-family="sans-serif" font-size="16" font-weight="800">96.8%</text>
+  <text x="224" y="156" fill="#94a3b8" font-family="sans-serif" font-size="9">Attendance Automated</text>
+
+  <!-- Graph Mockup -->
+  <rect x="44" y="184" width="330" height="110" rx="6" fill="#0d1219" stroke="#1f2937" stroke-width="1"/>
+  <text x="56" y="202" fill="#cbd5e1" font-family="sans-serif" font-size="10" font-weight="600">Cross-Module Academic Efficiency</text>
+
+  <!-- Bar chart visualizer -->
+  <rect x="56" y="250" width="28" height="30" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="94" y="235" width="28" height="45" rx="2" fill="#3b82f6" opacity="0.8"/>
+  <rect x="132" y="220" width="28" height="60" rx="2" fill="#3b82f6" opacity="0.85"/>
+  <rect x="170" y="210" width="28" height="70" rx="2" fill="#6366f1"/>
+  <rect x="208" y="225" width="28" height="55" rx="2" fill="#8b5cf6"/>
+  <rect x="246" y="215" width="28" height="65" rx="2" fill="#a855f7"/>
+  <rect x="284" y="205" width="28" height="75" rx="2" fill="#c084fc"/>
+  <rect x="322" y="195" width="28" height="85" rx="2" fill="#38bdf8"/>
+  <line x1="50" y1="282" x2="360" y2="282" stroke="#334155" stroke-width="1"/>
+
+  <!-- Right Panel: Google Gemini AI Section -->
+  <rect x="410" y="60" width="266" height="250" rx="8" fill="url(#cardGrad2)" stroke="#222d3d" stroke-width="1"/>
+  
+  <rect x="424" y="74" width="130" height="20" rx="4" fill="url(#geminiGrad)"/>
+  <text x="489" y="88" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="800" text-anchor="middle" letter-spacing="1">✨ GOOGLE GEMINI AI</text>
+
+  <text x="424" y="114" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">Automated Pedagogy Engine</text>
+
+  <!-- Gemini Prompt Box -->
+  <rect x="424" y="126" width="238" height="68" rx="6" fill="#0d1219" stroke="#1f2937" stroke-width="1"/>
+  <text x="434" y="142" fill="#c084fc" font-family="monospace" font-size="9" font-weight="600">&gt; gemini.generateStudyContent()</text>
+  <text x="434" y="157" fill="#94a3b8" font-family="sans-serif" font-size="9">• 15 Adaptive Quizzes Created</text>
+  <text x="434" y="171" fill="#94a3b8" font-family="sans-serif" font-size="9">• 30 Dynamic Flashcards Ready</text>
+  <text x="434" y="185" fill="#4ade80" font-family="sans-serif" font-size="9">✓ Real-time Sync to 200 Schools</text>
+
+  <rect x="424" y="206" width="238" height="40" rx="6" fill="#0d1219" stroke="#1f2937" stroke-width="1"/>
+  <text x="434" y="222" fill="#e2e8f0" font-family="sans-serif" font-size="10" font-weight="600">Personalized Learning Paths</text>
+  <text x="434" y="236" fill="#64748b" font-family="sans-serif" font-size="9">Adaptive difficulty based on quiz scores</text>
+
+  <rect x="424" y="254" width="238" height="42" rx="6" fill="rgba(124,58,237,0.12)" stroke="#7c3aed" stroke-width="1"/>
+  <text x="543" y="278" fill="#c084fc" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Multi-Tenant RBAC Active</text>
+
+  <!-- Bottom Architecture Bar -->
+  <rect x="24" y="326" width="652" height="88" rx="8" fill="#10151f" stroke="#1e2736" stroke-width="1"/>
+  <text x="42" y="352" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1">CLOUD ARCHITECTURE &amp; TECH STACK</text>
+  
+  <rect x="42" y="366" width="116" height="32" rx="4" fill="#18202d" stroke="#283548" stroke-width="1"/>
+  <text x="100" y="386" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Google Gemini</text>
+
+  <rect x="168" y="366" width="116" height="32" rx="4" fill="#18202d" stroke="#283548" stroke-width="1"/>
+  <text x="226" y="386" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">React.js Web</text>
+
+  <rect x="294" y="366" width="116" height="32" rx="4" fill="#18202d" stroke="#283548" stroke-width="1"/>
+  <text x="352" y="386" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Node.js API</text>
+
+  <rect x="420" y="366" width="116" height="32" rx="4" fill="#18202d" stroke="#283548" stroke-width="1"/>
+  <text x="478" y="386" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Firebase Sync</text>
+
+  <rect x="546" y="366" width="116" height="32" rx="4" fill="#18202d" stroke="#283548" stroke-width="1"/>
+  <text x="604" y="386" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Tailwind CSS</text>
+</svg>

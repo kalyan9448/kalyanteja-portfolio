@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="700" height="440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121218"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4b892"/>
+      <stop offset="100%" stop-color="#f2dab8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c26"/>
+      <stop offset="100%" stop-color="#14141c"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="440" rx="12" fill="url(#bg)"/>
+  <rect width="698" height="438" x="1" y="1" rx="11" fill="none" stroke="#252533" stroke-width="1"/>
+
+  <!-- Top Window Bar -->
+  <rect width="700" height="42" rx="12" fill="#161620"/>
+  <rect y="30" width="700" height="12" fill="#161620"/>
+  <line x1="0" y1="42" x2="700" y2="42" stroke="#262636" stroke-width="1"/>
+  
+  <!-- Window Controls -->
+  <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="21" r="5" fill="#f59e0b"/>
+  <circle cx="56" cy="21" r="5" fill="#10b981"/>
+
+  <text x="80" y="25" fill="#888899" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="1">DOSHANIVARANA PLATFORM — LIVE SERVICES</text>
+  <rect x="570" y="12" width="105" height="18" rx="9" fill="rgba(212,184,146,0.15)"/>
+  <text x="622" y="25" fill="#d4b892" font-family="sans-serif" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="1">PRODUCTION LIVE</text>
+
+  <!-- Main Video Viewport -->
+  <rect x="24" y="60" width="410" height="250" rx="8" fill="#0d0d14" stroke="#262638" stroke-width="1"/>
+  
+  <!-- Video Scene Mockup -->
+  <rect x="25" y="61" width="408" height="248" rx="8" fill="#15131f"/>
+  <circle cx="229" cy="180" r="70" fill="rgba(212,184,146,0.06)"/>
+  <circle cx="229" cy="180" r="45" fill="rgba(245,158,11,0.1)"/>
+  <polygon points="229,135 240,165 270,165 245,185 255,215 229,195 203,215 213,185 188,165 218,165" fill="#d4b892" opacity="0.3"/>
+  <text x="229" y="195" fill="#d4b892" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="800" text-anchor="middle" opacity="0.85">🕉️</text>
+
+  <!-- Video Overlays -->
+  <rect x="36" y="72" width="130" height="22" rx="4" fill="rgba(0,0,0,0.7)"/>
+  <circle cx="48" cy="83" r="4" fill="#ef4444"/>
+  <text x="58" y="86" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="700" letter-spacing="1">AGORA LIVE RTC</text>
+
+  <rect x="340" y="72" width="80" height="22" rx="4" fill="rgba(0,0,0,0.7)"/>
+  <text x="380" y="86" fill="#a1a1aa" font-family="sans-serif" font-size="10" text-anchor="middle">👁 1,420 Live</text>
+
+  <rect x="36" y="272" width="220" height="26" rx="4" fill="rgba(0,0,0,0.75)"/>
+  <text x="46" y="289" fill="#f2dab8" font-family="sans-serif" font-size="11" font-weight="600">Special Maha Shanti Pooja</text>
+
+  <!-- Side Control Panel -->
+  <rect x="450" y="60" width="226" height="250" rx="8" fill="url(#cardGrad)" stroke="#262638" stroke-width="1"/>
+  <text x="466" y="86" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Booking Console</text>
+  <text x="466" y="103" fill="#8d8d9f" font-family="sans-serif" font-size="10">Real-Time RBAC Management</text>
+
+  <!-- Status Cards -->
+  <rect x="466" y="118" width="194" height="44" rx="6" fill="#12121a" stroke="#252538" stroke-width="1"/>
+  <text x="478" y="136" fill="#d4b892" font-family="sans-serif" font-size="11" font-weight="700">500+ Monthly Bookings</text>
+  <text x="478" y="152" fill="#888899" font-family="sans-serif" font-size="9">Automated Slots &amp; Rituals</text>
+
+  <rect x="466" y="170" width="194" height="44" rx="6" fill="#12121a" stroke="#252538" stroke-width="1"/>
+  <text x="478" y="188" fill="#68d391" font-family="sans-serif" font-size="11" font-weight="700">Razorpay Secured</text>
+  <text x="478" y="204" fill="#888899" font-family="sans-serif" font-size="9">Webhook Verified Payments</text>
+
+  <rect x="466" y="222" width="194" height="44" rx="6" fill="#12121a" stroke="#252538" stroke-width="1"/>
+  <text x="478" y="240" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="700">Shiprocket Dispatched</text>
+  <text x="478" y="256" fill="#888899" font-family="sans-serif" font-size="9">Automated Prasadam Tracking</text>
+
+  <!-- Bottom Badges / Tech Strip -->
+  <rect x="24" y="326" width="652" height="88" rx="8" fill="#14141d" stroke="#232333" stroke-width="1"/>
+  <text x="42" y="352" fill="#d4b892" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1">INTEGRATED ARCHITECTURE</text>
+  
+  <rect x="42" y="366" width="110" height="32" rx="4" fill="#1d1d2b" stroke="#313147" stroke-width="1"/>
+  <text x="97" y="386" fill="#e8e4df" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">React Native</text>
+
+  <rect x="162" y="366" width="110" height="32" rx="4" fill="#1d1d2b" stroke="#313147" stroke-width="1"/>
+  <text x="217" y="386" fill="#e8e4df" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Agora WebRTC</text>
+
+  <rect x="282" y="366" width="110" height="32" rx="4" fill="#1d1d2b" stroke="#313147" stroke-width="1"/>
+  <text x="337" y="386" fill="#e8e4df" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Razorpay API</text>
+
+  <rect x="402" y="366" width="110" height="32" rx="4" fill="#1d1d2b" stroke="#313147" stroke-width="1"/>
+  <text x="457" y="386" fill="#e8e4df" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Shiprocket API</text>
+
+  <rect x="522" y="366" width="138" height="32" rx="4" fill="#1d1d2b" stroke="#313147" stroke-width="1"/>
+  <text x="591" y="386" fill="#e8e4df" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">Firebase Firestore</text>
+</svg>
